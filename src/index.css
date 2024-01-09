@@ -13,6 +13,18 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+div {
+  flex-direction: row;
+  color: green;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.puppyChoices {
+  border-radius: 50%;
+  color: wheat;
+  background-color: rgb(142, 125, 125);
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -33,6 +45,11 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  flex-direction: row;
+}
+
+.featPup {
+  color: rgb(194, 233, 136);
 }
 
 button {
